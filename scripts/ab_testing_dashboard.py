@@ -16,7 +16,7 @@ def load_data():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Minu1981",
+        password="",
         database="ab_testing_db"
     )
     query = "SELECT * FROM experiment_data;"
