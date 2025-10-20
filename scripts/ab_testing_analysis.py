@@ -8,7 +8,7 @@ import seaborn as sns
 conn = mysql.connector.connect(
     host="localhost",
     user="root",             # replace with your MySQL username
-    password="Minu1981",# replace with your password
+    password="",# replace with your password
     database="ab_testing_db"
 )
 
