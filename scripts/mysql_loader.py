@@ -14,7 +14,7 @@ df = pd.read_csv(csv_file)
 conn = mysql.connector.connect(
     host="localhost",
     user="root",       # your MySQL username
-    password="Minu1981",  # your MySQL password
+    password="",  # your MySQL password
     database="ab_testing_db"
 )
 cursor = conn.cursor()
